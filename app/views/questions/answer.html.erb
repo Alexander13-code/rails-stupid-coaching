@@ -1,0 +1,16 @@
+
+<div class="jumbotron p-3 mb-2 bg-light">
+  <h2 class="display-4 p-3 mb-2 bg-light">Stupide coach</h2>
+  <div id=question class="alert alert-dark">
+    <p class="lead"><%=@question%></p>
+    <p>-You</p>
+  </div>
+  <hr class="my-4">
+  <div id=response class="alert alert-warning">
+    <p><%=@answer%></p>
+    <p>-Your coach</p>
+  </div>
+  <p class="lead">
+    <%= link_to 'Ask a new question', ask_path %>
+  </p>
+</div>
